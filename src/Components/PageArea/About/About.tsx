@@ -9,7 +9,7 @@ export function About() {
       <p>
         <a href="mailto:sabban.noam@gmail.com">sabban.noam@gmail.com</a>
         <br />
-        <a href="/Resume - Noam SABBAN.pdf" download>
+        <a href="/myPortfolio/Resume - Noam SABBAN.pdf" download>
           <button type="button">Download my Resume</button>
         </a>
       </p>

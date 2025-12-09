@@ -10,7 +10,7 @@ export function Nav() {
         <a href="#about"> About</a>
       </div>
       <div className="Nav-spacer" />
-      <a href="/Resume - Noam SABBAN.pdf" download>
+      <a href="/myPortfolio/Resume - Noam SABBAN.pdf" download>
         <button type="button">Download my Resume</button>
       </a>
     </div>
