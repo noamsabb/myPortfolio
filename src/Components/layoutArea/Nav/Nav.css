@@ -1,0 +1,74 @@
+
+.Nav {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 24px 0 16px 0;
+  background: rgba(30, 30, 30, 0.95);
+  box-shadow: 0 2px 16px #0080a033;
+  font-size: 1.15rem;
+  font-weight: 500;
+  border-bottom: 2px solid #00d4ff22;
+}
+
+.Nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.Nav > a {
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+
+.Nav > a {
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+
+.Nav > button {
+margin-right: auto;
+}
+
+.Nav a {
+  color: #00d4ff;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.Nav a:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #00d4ff, #00a8cc, #0080a0);
+}
+
+.Nav button {
+  background: linear-gradient(90deg, #00d4ff, #00a8cc, #0080a0);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0080a055;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.Nav button:hover {
+  background: linear-gradient(90deg, #00a8cc, #00d4ff);
+  box-shadow: 0 4px 16px #00d4ff55;
+}

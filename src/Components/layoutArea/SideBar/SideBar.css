@@ -1,0 +1,38 @@
+.SideBar a svg {
+  width: 40px;
+  height: 40px;
+  stroke-width: 2.2;
+  color: #00d4ff;
+  transition: color 0.2s, box-shadow 0.2s;
+}
+.SideBar a:hover svg {
+  color: #fff;
+  filter: drop-shadow(0 0 8px #00d4ff88);
+}
+
+
+.SideBar {
+  position: fixed;
+  top: 50%;
+  left: 2.5rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: rgba(30, 30, 30, 0.92);
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(0,212,255,0.10);
+  padding: 2rem 1.2rem;
+  z-index: 1000;
+  border: 2px solid #00d4ff33;
+  width: 50px;
+  height: 100px;
+  align-items: center;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+.SideBar:hover {
+  box-shadow: 0 12px 40px rgba(0,212,255,0.18);
+  border: 2px solid #00d4ff;
+}
+
+
